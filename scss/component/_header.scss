@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* anidando*/
+
+.header {
+    /*  background-color: rgb(245, 240, 234);*/
+    margin-top: 0; 
+    width: 100vw;
+    height: 10vw;
+    padding: 4% 2% 2% 2%;
+    background-image: linear-gradient(to right top, #6b79d1, #6f82d6, #738cdb, #7995e0, #7f9ee4, #7da6e9, #7baeed, #7bb6f1, #72bff6, #69c7f9, #63cffb, #5fd7fb);
+
+
+    & cabecera {
+        position:fixed;
+        top: 0vw;
+    }
+    & medlogo {
+        width: 50px;
+        position: fixed;
+        margin-top: -5px;
+        left: 10px;
+        border-radius: 10px;
+    }
+          
+    .cabecera__lista{
+        height: 20vh;
+        width: 70%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: space-around;
+        flex-wrap: wrap;
+        
+    }
+        .cabecera__lista__item{
+            height: 20vh;
+            width: 10%;
+            display: flex;
+            margin: 6%;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: baseline;
+            font-family: "calibri"; 
+        }
+}
+
+
+
+
+
+.header nav ul li {
+    list-style-type: none;
+}    
+        
+      
+
+
+    

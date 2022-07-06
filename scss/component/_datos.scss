@@ -1,0 +1,99 @@
+p{
+    font-family: $main-font;
+}
+
+
+.cuerpos{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-image: linear-gradient(to right, #bbc0de, #b7bfe0, #b3bde2, #aebce3, #a9bbe5, #a3bce7, #9cbce8, #95bde9, #8cc0e9, #84c3e8, #7dc6e5, #78c9e2);
+
+
+
+    & galeria{
+      /*height: 100vh;*/
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;/*Opcional por que es el default*/
+        justify-content: space-evenly;
+        margin-left: 3%;
+        padding-top: 15%;
+        font-family: "calibri";
+    }
+
+        & titulo {
+          color:rgb(67, 18, 112);
+          padding-top: 3%;
+          font-family: "calibri";
+        }
+          .contexto {
+              padding-top: 2%;
+              padding-bottom: 3%;
+          }    
+    
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+.text {
+    font-family: "calibri";
+}
+.textf {
+  font-family: "calibri";
+  padding-bottom: 5%;
+}
+.contexto {
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+.titulo {
+    color:rgb(67, 18, 112);
+    padding-top: 3%;
+    font-family: "calibri";
+}
+.boton {
+    
+    background-color: #42417F;
+    width: fit-content; 
+    border-radius: 5%;
+    margin: 20px auto;
+}
+.cuerpo{
+  background-color: rgb(226, 241, 241);
+  padding-left: 10px;
+  padding-right: 10px;
+  display: grid;
+  grid-gap: 20px;
+
+}
+.cuerpos{
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-image: linear-gradient(to right, #bbc0de, #b7bfe0, #b3bde2, #aebce3, #a9bbe5, #a3bce7, #9cbce8, #95bde9, #8cc0e9, #84c3e8, #7dc6e5, #78c9e2);
+
+}
+.galeria{
+  /*height: 100vh;*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;/*Opcional por que es el default*/
+    justify-content: space-evenly;
+    margin-left: 3%;
+    padding-top: 15%;
+    font-family: "calibri";
+    
+}
+
+
+
